@@ -8,8 +8,8 @@ It communicates with `Dumplings` server agent, to modify WEEX script ON THE FLY.
 
 It doesn't depend on any UI package.  But require a sever agent like `Dumplings`, which supervise and transform WEEX file on real time.
 
-But works well with [package console-panel](http://gitlab.alibaba-inc.com/xiaoshu.wb/console-panel) which displays debuging sonsole,   
-and [package main-window](http://gitlab.alibaba-inc.com/xiaoshu.wb/mainwindow) which dispatch debuging related UI events.
+But works well with [package console-panel](https://github.com/TheraPackages/console-panel) which displays debuging sonsole,   
+and [package main-window](https://github.com/TheraPackages/mainwindow) which dispatch debuging related UI events.
 
 Activate WeexRuner on start up. It will search local simulator (iOS ONLY for now), generate a device list.
 
