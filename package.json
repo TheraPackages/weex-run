@@ -1,0 +1,36 @@
+{
+  "name": "weex-run",
+  "version": "1.1.6",
+  "description": "run weex in thera",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TheraPackages/weex-run.git"
+  },
+  "keywords": [
+    "weex"
+  ],
+  "author": "NickolasHu",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "~2.0.0",
+    "is-running": "~2.1.0",
+    "jimp": "~0.2.27",
+    "jquery": "~3.1.1",
+    "ps-node": "~0.1.4",
+    "ps-tree": "~1.1.0",
+    "request": "~2.76.0",
+    "standard": "~8.5.0",
+    "touch": "~1.0.0",
+    "websocket": "1.0.22"
+  },
+  "standard": {
+    "globals": [
+      "atom",
+      "$"
+    ]
+  }
+}
