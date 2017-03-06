@@ -15,6 +15,15 @@
   ],
   "author": "NickolasHu",
   "license": "MIT",
+  "activationCommands": {
+    "atom-workspace": [
+      "thera-live-server:start",
+      "thera-live-server:debug",
+      "thera-live-server:stop",
+      "thera-live-server:qrcode",
+      "atom-live-server:get-sims"
+    ]
+  },
   "dependencies": {
     "fs-extra": "~2.0.0",
     "is-running": "~2.1.0",
