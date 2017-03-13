@@ -16,7 +16,7 @@
 
 
 endPortNumber=65535
-starPortNumber=7001
+starPortNumber=7000
 
 for i in `seq $starPortNumber $endPortNumber`
 do
