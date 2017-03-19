@@ -16,7 +16,7 @@
 udid=$1
 packagePath=$2
 port=$3
-readonly appid="com.taobao.Preview"
+appid=$4
 
 if [ ! $udid ] || [ ! $packagePath ] ;then
     echo "please input udid and path"
