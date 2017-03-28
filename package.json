@@ -1,6 +1,6 @@
 {
   "name": "weex-run",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "run weex in thera",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git@github.com:TheraPackages/weex-run.git"
   },
+  "attachResource": "resources",
   "keywords": [
     "weex"
   ],
@@ -27,6 +28,7 @@
   "dependencies": {
     "fs-extra": "~2.0.0",
     "fs-promise": "^2.0.0",
+    "ip": "^1.1.5",
     "is-running": "~2.1.0",
     "jimp": "~0.2.27",
     "jquery": "~3.1.1",
