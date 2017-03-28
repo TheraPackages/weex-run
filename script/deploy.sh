@@ -24,7 +24,7 @@ if [ ! $udid ] || [ ! $packagePath ] ;then
 fi
 # step. 1
 # if the udid Simulator is booted， so don't kill and relaunch. just install app
-IFS=' ' read -r -a array <<< `xcrun simctl list | grep $udid`
+IFS=' ' read -r -a array <<< `/Applications/Xcode.app/Contents/Developer/usr/bin/simctl list | grep $udid`
 LAST=${array[@]: -1}
 if [ "$LAST" != "(Booted)" ]; then
 	#shot down other Simulator
@@ -37,11 +37,11 @@ fi
 #step. 2 wait when Simulator is ready and install app
 while true
 do
-	xcrun simctl install booted $packagePath 2>/dev/null
+	/Applications/Xcode.app/Contents/Developer/usr/bin/simctl install booted $packagePath 2>/dev/null
 	if [ $? == 0 ]
 	then
 		#step. 3 launch app
-		xcrun simctl launch booted $appid -DumplingsPort $port
+		/Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch booted $appid -DumplingsPort $port
 		exit 0
 	fi
 	sleep 1
