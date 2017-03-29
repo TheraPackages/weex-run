@@ -35,9 +35,11 @@
     "ps-node": "~0.1.4",
     "ps-tree": "~1.1.0",
     "request": "~2.76.0",
-    "standard": "~8.5.0",
     "touch": "~1.0.0",
     "websocket": "1.0.22"
+  },
+  "devDependencies": {
+    "standard": "~8.5.0"
   },
   "standard": {
     "globals": [

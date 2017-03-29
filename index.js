@@ -9,7 +9,6 @@ module.exports = {
   // start server dumplings
   activate () {
     this.runner = new WeexRuner()
-    this.runner.activate()
   },
 
   deactivate () {
