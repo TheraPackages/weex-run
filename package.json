@@ -16,7 +16,7 @@
   ],
   "author": "NickolasHu",
   "license": "MIT",
-  "--activationCommands": {
+  "activationCommands": {
     "atom-workspace": [
       "thera-live-server:start",
       "thera-live-server:debug",
@@ -31,7 +31,6 @@
     "ip": "^1.1.5",
     "is-running": "~2.1.0",
     "jimp": "~0.2.27",
-    "jquery": "~3.1.1",
     "ps-node": "~0.1.4",
     "ps-tree": "~1.1.0",
     "request": "~2.76.0",
