@@ -75,9 +75,16 @@ img.weex-run.qrcode {
   display: block;
 }
 
+
+#thera_device_panel_table thead {
+  //display: table;
+  //table-layout:fixed;
+  width: 100%;
+}
+
 #thera_device_panel_table tbody {
   display: block;
-  height: 330px;
+  height: 300px;
   overflow: scroll;
 }
 
@@ -94,7 +101,7 @@ img.weex-run.qrcode {
   margin: 20px;
 }
 
-#thera_device_panel_table tr:nth-child(even) {
+#thera_device_panel_table tbody tr:nth-child(odd) {
   background-color: #0D3349;
 }
 
@@ -105,6 +112,7 @@ img.weex-run.qrcode {
 }
 
 #thera_device_panel_table_prompt {
+  border-bottom: 1px solid gray;
   border-top: 1px solid gray;
   text-align:left;
   padding-bottom: 15px;
@@ -120,4 +128,5 @@ img.weex-run.qrcode {
   font-color:white;
   text-align: left;
 }
+
 
