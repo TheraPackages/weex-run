@@ -41,7 +41,7 @@ do
 	if [ $? == 0 ]
 	then
 		#step. 3 launch app
-		/Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch booted $appid -DumplingsPort $port
+		/Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch booted $appid -DumplingsPort $port -UDID $1
 		exit 0
 	fi
 	sleep 1
