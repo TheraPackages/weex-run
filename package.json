@@ -35,8 +35,7 @@
     "request": "~2.76.0",
     "touch": "~1.0.0",
     "websocket": "1.0.22",
-    "jquery": "~3.1.1",
-    "jquery-ui": "~1.12.1"
+    "jquery": "~3.1.1"
   },
   "devDependencies": {
     "standard": "~8.5.0"
