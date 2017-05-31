@@ -25,17 +25,18 @@
     ]
   },
   "dependencies": {
+    "chokidar": "^1.7.0",
     "fs-extra": "~2.0.0",
     "fs-promise": "^2.0.0",
     "ip": "^1.1.5",
     "is-running": "~2.1.0",
     "jimp": "~0.2.27",
+    "jquery": "~3.2.1",
     "ps-node": "~0.1.4",
     "ps-tree": "~1.1.0",
     "request": "~2.76.0",
     "touch": "~1.0.0",
-    "websocket": "1.0.22",
-    "jquery": "~3.2.1"
+    "websocket": "1.0.22"
   },
   "devDependencies": {
     "standard": "~8.5.0"
