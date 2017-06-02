@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		f9GwEE9hX+1YBZ5iSh134vjfgMc=
+		uBKKATh8ZZyfCScJKpZCP1cG6lA=
 		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8F4UQFb4mgj0ZqJW5eb6QpGpc9g=
+		ER/qrE1MrU/ehLVRyJz5Ce7aTEk=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -41,13 +41,37 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>TMClientCommonCategory-Info.plist</key>
+		<key>PreviewRes.bundle/js/hello.js</key>
 		<data>
-		BQYuLMDKtFFGDBjVXxwsJo61rVw=
+		qd5OS1BPBNPFsgVlnxpCPiqMnFI=
 		</data>
-		<key>main.js</key>
+		<key>PreviewRes.bundle/js/input-demo.js</key>
 		<data>
-		UbCS+ur3rsBJGUa89ZxBzQAAdso=
+		WQrPU6NKBNXbO5EiMRIJOrQUSjY=
+		</data>
+		<key>PreviewRes.bundle/js/list-basic.js</key>
+		<data>
+		PaGAHE8RPdAck5g7/9FZ51AvC80=
+		</data>
+		<key>PreviewRes.bundle/js/slider-page.js</key>
+		<data>
+		U96WIZs1sFkyhbhaFu3NtEiOsVg=
+		</data>
+		<key>PreviewRes.bundle/js/style-box.js</key>
+		<data>
+		FrRqFhkRgq3pTtgW6Rw1ElPhbYY=
+		</data>
+		<key>PreviewRes.bundle/js/text-demo.js</key>
+		<data>
+		FESQWSRQVM5tCksuE15j3AE9Y08=
+		</data>
+		<key>PreviewRes.bundle/js/video-demo.js</key>
+		<data>
+		zCIcO37xwJFPJn6AUrxiwnUPPGQ=
+		</data>
+		<key>native-bundle-main.js</key>
+		<data>
+		Ux2OeK3IcC8AuXf4J86PgvCWTuc=
 		</data>
 		<key>wx_load_error@3x.png</key>
 		<data>
@@ -71,11 +95,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			f9GwEE9hX+1YBZ5iSh134vjfgMc=
+			uBKKATh8ZZyfCScJKpZCP1cG6lA=
 			</data>
 			<key>hash2</key>
 			<data>
-			wLWkPP08yKVMtdLyhkIBvNeMcJTdReEWtLmqJOdLnEg=
+			vJW8oeT4pmZUU3R3XE45idRDwjGWNxDMsMbetq6M/Z0=
 			</data>
 		</dict>
 		<key>Default-568h@2x.png</key>
@@ -124,26 +148,92 @@
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>TMClientCommonCategory-Info.plist</key>
+		<key>PreviewRes.bundle/js/hello.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BQYuLMDKtFFGDBjVXxwsJo61rVw=
+			qd5OS1BPBNPFsgVlnxpCPiqMnFI=
 			</data>
 			<key>hash2</key>
 			<data>
-			3HPItWR02jHgkEfHcQpymppYKFB/0IB1ATfpS/jy9c0=
+			zmYLf2QyPK2XSv7qscBkO98/2PTUXdPi54QPYAFONuU=
 			</data>
 		</dict>
-		<key>main.js</key>
+		<key>PreviewRes.bundle/js/input-demo.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			UbCS+ur3rsBJGUa89ZxBzQAAdso=
+			WQrPU6NKBNXbO5EiMRIJOrQUSjY=
 			</data>
 			<key>hash2</key>
 			<data>
-			xStH+3WVXO9P6ivnfKTaOTnA4QFx0RU91W0QAuOex2o=
+			2sEMhBXUq2IwIIIreCg1srrWsTX13eqybT8nkyZW6U4=
+			</data>
+		</dict>
+		<key>PreviewRes.bundle/js/list-basic.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PaGAHE8RPdAck5g7/9FZ51AvC80=
+			</data>
+			<key>hash2</key>
+			<data>
+			kXJjqrnx0okn0HWv1Re/KPyvGIylvmzUKJh+UsuMKXU=
+			</data>
+		</dict>
+		<key>PreviewRes.bundle/js/slider-page.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U96WIZs1sFkyhbhaFu3NtEiOsVg=
+			</data>
+			<key>hash2</key>
+			<data>
+			oVQoRRri1eLkqgGmssSEb964YkNIgGvuMlc07ljlXws=
+			</data>
+		</dict>
+		<key>PreviewRes.bundle/js/style-box.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FrRqFhkRgq3pTtgW6Rw1ElPhbYY=
+			</data>
+			<key>hash2</key>
+			<data>
+			ug+gtsZ8iNkmqFvd2FvIjNtY5EAQhM10zJ1jF58VECE=
+			</data>
+		</dict>
+		<key>PreviewRes.bundle/js/text-demo.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FESQWSRQVM5tCksuE15j3AE9Y08=
+			</data>
+			<key>hash2</key>
+			<data>
+			k3mI63vA5p5hWGpWIw12OH7RfKGD9rH6HoBoZ+r00RA=
+			</data>
+		</dict>
+		<key>PreviewRes.bundle/js/video-demo.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			zCIcO37xwJFPJn6AUrxiwnUPPGQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			HdLJl0F7nIJu7kSmjItm56QtQYadD9haduZgdCkTenU=
+			</data>
+		</dict>
+		<key>native-bundle-main.js</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ux2OeK3IcC8AuXf4J86PgvCWTuc=
+			</data>
+			<key>hash2</key>
+			<data>
+			85m1LvBpExTQ8NHBDUxN6lVw5ggSKEBTqaMQx4M77qk=
 			</data>
 		</dict>
 		<key>wx_load_error@3x.png</key>
