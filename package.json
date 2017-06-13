@@ -1,6 +1,6 @@
 {
   "name": "weex-run",
-  "version": "1.1.38",
+  "version": "1.1.37",
   "description": "run weex in thera",
   "main": "index.js",
   "scripts": {
@@ -44,6 +44,14 @@
       "description": "Provide current project config object",
       "versions": {
         "1.0.0": "provideProjectConfig"
+      }
+    }
+  },
+  "--consumedServices": {
+    "thera-project-config": {
+      "description": "Consume project config object",
+      "versions": {
+        "1.0.0": "cosumeProjectConfig"
       }
     }
   }

@@ -19,6 +19,10 @@ module.exports = {
 
   // provide thera project configuration, returns a promise object.
   provideProjectConfig () {
-    return configurationManager.getConfig()
+    return configurationManager
+  },
+
+  cosumeProjectConfig (configurationManager) {
+    configurationManager.getConfig().then((c) => console.log(c))
   }
 }
