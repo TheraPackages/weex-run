@@ -1,6 +1,6 @@
 {
   "name": "weex-run",
-  "version": "1.1.36",
+  "version": "1.1.40",
   "description": "run weex in thera",
   "main": "index.js",
   "scripts": {
@@ -16,14 +16,6 @@
   ],
   "author": "NickolasHu",
   "license": "MIT",
-  "--activationCommands": {
-    "atom-workspace": [
-      "thera-live-server:start",
-      "thera-live-server:debug",
-      "thera-live-server:stop",
-      "thera-device-panel:show"
-    ]
-  },
   "dependencies": {
     "chokidar": "^1.7.0",
     "fs-extra": "~2.0.0",
@@ -46,5 +38,21 @@
       "atom",
       "$"
     ]
+  },
+  "providedServices": {
+    "thera-project-config": {
+      "description": "Provide current project config object",
+      "versions": {
+        "1.0.0": "provideProjectConfig"
+      }
+    }
+  },
+  "--consumedServices": {
+    "thera-project-config": {
+      "description": "Consume project config object",
+      "versions": {
+        "1.0.0": "cosumeProjectConfig"
+      }
+    }
   }
 }
