@@ -14,7 +14,6 @@
 #!/bin/bash
 set -e
 
-
 endPortNumber=65535
 starPortNumber=7000
 
