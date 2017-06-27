@@ -19,10 +19,6 @@ atom-panel.modal.overlay.from-top.weex-run.qrcode-panel {
   border: none;
 }
 
-.qrImageWithGuide{
-  background-color:@base-background-color;
-}
-
 #weexrun-qrDiv{
   margin-left: 60px;
   width: 170px;
@@ -93,8 +89,9 @@ atom-panel.modal.overlay.from-top.weex-run.qrcode-panel {
 
 #thera_device_panel_ex_table {
   text-align: center;
-  margin: 10px;
+  padding: 10px;
   width: 900px;
+  background-color:@background-color-highlight;
 }
 
 #thera_device_panel_qr_view {
@@ -102,7 +99,7 @@ atom-panel.modal.overlay.from-top.weex-run.qrcode-panel {
 }
 
 #thera_device_panel_table tbody tr:nth-child(odd) {
-  background-color: @base-background-color;
+  background-color: @background-color-highlight;
 }
 
 #thera_device_panel_table tbody tr:nth-child(even) {
@@ -149,11 +146,15 @@ atom-panel.modal.overlay.from-top.weex-run.qrcode-panel {
 .thera-device-modal-panel{
   margin: 0px !important;
   margin-top: 20px !important;
-  padding: 10px !important;
   left:300px !important;
-  background: @base-background-color !important;
-  box-shadow: 1px 1px 1px 1px black;
+  background: transparent!important;
   width: 900px !important;
+  border: none;
+}
+
+.thera-device-modal-panel.modal:before{
+  background-color:transparent!important;
+  box-shadow: 0 0px 0px 0px transparent!important;
 }
 
 .thera-device-modal-panel.from-top{
