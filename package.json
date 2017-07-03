@@ -1,6 +1,6 @@
 {
   "name": "weex-run",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "run weex in thera",
   "main": "index.js",
   "scripts": {
